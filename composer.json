@@ -1,0 +1,39 @@
+{
+    "name": "mekramy/oop-util",
+    "description": "PHP class utility. method chaining and getter/setter implementation",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "oop",
+        "util",
+        "chaining",
+        "getter",
+        "setter"
+    ],
+    "authors": [
+        {
+            "email": "m.ajamekramy@gmail.com",
+            "homepage": "http://ekramy.ir",
+            "name": "M Ekramy",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MEkramy\\OOPUtil\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
